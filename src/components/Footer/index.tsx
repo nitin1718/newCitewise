@@ -5,12 +5,12 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-0 dark:bg-gray-dark md:pt-0 lg:pt-0">
+      <footer className="relative z-10 bg-white pt-20 dark:bg-gray-dark md:pt-20 lg:pt-20">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12 ">
               <div className="mb-12 max-w-[360px] lg:mb-16 ">
-                <Link href="/" className="mb-8 inline-block">
+                {/* <Link href="/" className="mb-8 inline-block">
                 <div className="flex items-center">
                   <Image
                     src="/images/logo/citewise.svg"
@@ -20,7 +20,7 @@ const Footer = () => {
                   />
                   <h2 className="text-xl ml-2 md:text-xl font-bold">CiteWise</h2>
                 </div>
-                </Link>
+                </Link> */}
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                 CiteWise is Building toolkits to aid Research. Starting small. One at a time.
                 </p>

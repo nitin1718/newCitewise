@@ -25,8 +25,8 @@ export default function RootLayout({
           <Header />
           <ToastContainer position="bottom-right"/>
           {children}
-
-          <ScrollToTop />
+          <Footer/>
+          {/* <ScrollToTop /> */}
         </Providers>
       </body>
     </html>
